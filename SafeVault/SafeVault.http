@@ -1,0 +1,29 @@
+POST http://localhost:5012/login
+Content-Type: application/x-www-form-urlencoded
+
+username=user
+&password=User123!
+
+###
+
+POST http://localhost:5012/login
+Content-Type: application/x-www-form-urlencoded
+
+username=admin
+&password=Admin123!
+
+###
+
+GET http://localhost:5012/public
+
+###
+
+GET http://localhost:5012/authenticated
+
+###
+
+GET http://localhost:5012/user
+
+###
+
+GET http://localhost:5012/admin
